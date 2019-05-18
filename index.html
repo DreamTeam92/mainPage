@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="main.css">
+   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+<script>
+function openNav() {
+  document.getElementById("myNav").style.height = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.height = "0%";
+}
+</script>
+  <script>
+    function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
+  <header>
+    <nav>
+      <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><span class="burger" style="font-size:30px;cursor:pointer" onclick="openNav()"><i class="fa fa-1x fa-bars"></i></span></a>
+        <div class="overlay-content">
+          <a href="#">About me</a>
+          <a href="#">Personal Training</a>
+          <a href="#">Pilates</a>
+          <a href="#">Corrective Exercise</a>
+          <a href="#">Prices</a>
+          <a href="https://facebook.com">Contact</a>
+        </div>
+        <div class="social">
+          <a href="https://gmail.com/#" title="Mail" class="mail-icon-g"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+          <a href="https://facebook.com/#" title="Facebook" class="social-icon2"><i class="fa fa-x fa-facebook-square" aria-hidden="true"></i></a>
+          <a href="https://www.whatsapp.com/#" title="Whatsapp" class="social-icon3"><i class="fa fa-x fa-whatsapp" aria-hidden="true"></i></a>
+          <a href="https://instagram.com/#" title="Instagram" class="social-icon4"><i class="fa fa-x fa-instagram" aria-hidden="true"></i></a>
+          <a href="https://linkedin.com/#" title="Linkedin" class="social-icon5"><i class="fa fa-0.5x fa-linkedin-square" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </nav>
+    <span class="burger" style="position:fixed;top:10px;right:10px;font-size:30px;cursor:pointer;z-index:1" onclick="openNav()"><i class="fa fa-1x fa-bars"></i></span>
+
+  </header>
+  <main>
+    <div class="parallax-01"></div>
+    <div class="section-01">
+     Viverra interdum mi magna mi, morbi sociis. Condimentum dui ipsum consequat morbi, curabitur aliquam pede, nullam vitae eu placerat eget et vehicula. Varius quisque non molestie dolor, nunc nisl dapibus vestibulum at, sodales tincidunt mauris ullamcorper, dapibus pulvinar, in in neque risus odio. Accumsan fringilla vulputate at quibusdam sociis eleifend, aenean maecenas vulputate, non id vehicula lorem mattis, ratione interdum sociis ornare. Suscipit proin magna cras vel, non sit platea sit, maecenas ante augue etiam maecenas, porta porttitor placerat leo erisque enim ligula venenatis dolor.
+    </div>
+    <div class="parallax-02"></div>
+    <div class="section-02">
+     Viverra interdum mi magna mi, morbi sociis. Condimentum dui ipsum consequat morbi, curabitur aliquam pede, nullam vitae eu placerat eget et vehicula. Varius quisque non molestie dolor, nunc nisl dapibus vestibulum at, sodales tincidunt mauris ullamcorper, dapibus pulvinar, in in neque risus odio. Accumsan fringilla vulputate at quibusdam sociis eleifend, aenean maecenas vulputate, non id vehicula lorem mattis, ratione interdum sociis ornare. Suscipit proin magna cras vel, non sit platea sit, maecenas ante augue etiam maecenas, porta porttitor placerat leo erisque enim ligula venenatis dolor.
+    </div>
+    <div class="parallax-03"></div>
+    <div class="section-03">
+     Viverra interdum mi magna mi, morbi sociis. Condimentum dui ipsum consequat morbi, curabitur aliquam pede, nullam vitae eu placerat eget et vehicula. Varius quisque non molestie dolor, nunc nisl dapibus vestibulum at, sodales tincidunt mauris ullamcorper, dapibus pulvinar, in in neque risus odio. Accumsan fringilla vulputate at quibusdam sociis eleifend, aenean maecenas vulputate, non id vehicula lorem mattis, ratione interdum sociis ornare. Suscipit proin magna cras vel, non sit platea sit, maecenas ante augue etiam maecenas, porta porttitor placerat leo erisque enim ligula venenatis dolor.
+    </div>
+   
+  </main>
+  <footer>
+  <a href="www.szabinarozinger.com"><img src="assets/Szabi%20logoja.png" title="szabinarozinger.com" alt="szabina rozinger"></a>
+      <ul>
+        <li><a href="https://gmail.com/#" title="Mail" class="mail-icon"><i class="fa fa-2x fa-envelope" aria-hidden="true"></i></a></li>
+        <li><a href="https://facebook.com/#" title="Facebook" class="social-icon"><i class="fa fa-2x fa-facebook-square" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.whatsapp.com/#" title="Whatsapp" class="social-icon"><i class="fa fa-2x fa-whatsapp" aria-hidden="true"></i></a></li>
+        <li><a href="https://instagram.com/#" title="Instagram" class="social-icon"><i class="fa fa-2x fa-instagram" aria-hidden="true"></i></a></li>
+         <li><a href="https://linkedin.com/#" title="Linkedin" class="social-icon"><i class="fa fa-2x fa-linkedin-square" aria-hidden="true"></i></a></li>
+      </ul>
+  <p>All rights reserved by Szabina Rozinger</p>
+  </footer>
+</body>
+</html>
+     
