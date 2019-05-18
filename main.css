@@ -1,0 +1,212 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-y: hidden;
+  transition: 0.5s
+  
+}
+
+.overlay-content {
+  position: relative;
+  top: 10%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: -10px;
+  right: 5px;
+  font-size: 40px;
+}
+i .closebtn {
+  color: white;
+}
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 35px;
+  top: 10px;
+  right: 10px;
+  }
+}
+
+
+/*======= Main part ======*/
+
+.parallax-01 {
+  background-image: url("https://i.imgur.com/nYm3eue.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax-02 {
+  background-image: url("https://i.imgur.com/pXsLfYa.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax-03 {
+  background-image: url("https://i.imgur.com/LGEoUTA.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section-01 {
+  height: 500px;
+  background-color: red;
+  font-size: 25px;
+  text-align: justify;
+  padding: 16px;
+}
+
+.section-02 {
+  height: 500px;
+  background-color: red;
+  font-size: 25px;
+  text-align: justify;
+  padding: 16px;
+}
+
+.section-03 {
+  height: 500px;
+  background-color: red;
+  font-size: 16px;
+  text-align: justify;
+  padding: 16px;
+}
+
+footer {
+  text-align: center;
+  background-color: snow;
+  
+}
+ul {
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+}
+li {
+  display: inline;
+}
+i:hover, a:hover {
+  transform: scale(1.2);
+  color: grey;
+}
+ a:hover {
+  transform: scale(1.2);
+  color: grey;
+}
+i {
+  filter: grayscale(30%);
+  transition: all 0.3s ease-in-out;
+  padding: 10px 20px;
+  color: grey;
+  justify-content: center;
+}
+
+img {
+  padding-top: 15px;
+  
+}
+.read-button {
+  color: white;
+  height: 48px;
+  padding: 11px 24px;
+  border-radius: 24px;
+  background-color: #761cca;
+  background-image: gradient(linear, left top, right top, from(#6918b4), to(#b478ed));
+  background-image: linear-gradient(90deg, #b478ed, #761cca);
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 700;
+}
+.read-button:hover {
+  transform: scale(1.1);
+  color:black;
+}
+.text-box {
+  box-sizing: border-box;
+  width: 90%;
+  height: 200px;
+  text-align: justify;
+  margin: 0;
+}
+.social a {
+  display: inline;
+  text-align: center;
+  font-size: 23px;
+  position: absolute;
+}
+.mail-icon-g {
+  bottom: 10px;
+left: 10px; 
+}
+.social-icon2 {
+  bottom: 10px;
+  left: 60px;
+}
+.social-icon3 {
+  bottom: 10px;
+  left: 110px;
+}
+.social-icon4 {
+  bottom: 10px;
+  left: 160px;
+}
+.social-icon4 {
+  bottom: 10px;
+  left: 160px;
+}
+.social-icon5 {
+  bottom: 10px;
+  left: 210px;
+}
+.footer-img {
+  width: 170px;
+}
+
+
+
+
+
+
+
